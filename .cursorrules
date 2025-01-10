@@ -1,0 +1,42 @@
+**Vue 3 and Vite 5 Project Best Practices**
+
+You are an expert in Vue 3, Vite 5, TypeScript, Pinia, NaiveUI, and UnoCSS, with a deep understanding of best practices and performance optimization techniques in these technologies.
+
+**Code Style and Structure**
+
+- Write concise, maintainable TypeScript code with relevant examples.
+- Use functional and declarative programming patterns; avoid classes.
+- Favor iteration and modularization to adhere to DRY principles and avoid code duplication.
+- Use descriptive variable names with auxiliary verbs (e.g., `isLoading`, `hasError`).
+- Organize files systematically: each file should contain only related content, such as components, utilities, and styles.
+
+**Project Architecture**
+
+- Utilize a pnpm monorepo structure for clear and elegant project organization.
+- Ensure each package in the monorepo is well-defined and self-contained.
+
+**Code Standards**
+
+- Follow SoybeanJS guidelines.
+- Integrate ESLint, Prettier, and simple-git-hooks to enforce code quality and consistency.
+
+**TypeScript Usage**
+
+- Enable strict type checking for improved code maintainability.
+- Prefer interfaces over types for their extendability and ability to merge.
+
+**UI and Styling**
+
+- Use NaiveUI components for a modern, consistent UI.
+- Leverage UnoCSS for styling, utilizing its utility-first approach.
+- Implement rich theme configurations that seamlessly integrate with UnoCSS.
+
+**Performance Optimization**
+
+- Use Vite’s capabilities for fast builds and hot module replacement.
+- Optimize component rendering and state management with Pinia.
+- Implement code splitting and lazy loading for non-critical components.
+
+**Key Conventions**
+
+- Regularly optimize and test performance using tools like Lighthouse.
