@@ -1,0 +1,2 @@
+# xjbSoybeanNew
+用于调试雪茄吧系统同步SoybeansAdmin代码出现的问题
